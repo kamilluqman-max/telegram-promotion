@@ -1,0 +1,182 @@
+[
+    {
+        "campaign_id": "20260725_164637",
+        "started_at": "2026-07-25T16:46:37.081957",
+        "finished_at": "2026-07-25T16:46:37.084992",
+        "status": "daily_limit_reached",
+        "daily_limit": 1,
+        "batch_size": 2,
+        "delay_between_messages": 30,
+        "delay_between_batches": 300,
+        "total_contacts": 20,
+        "pending_contacts": 0,
+        "successful_sends": 0,
+        "failed_sends": 0,
+        "skipped_contacts": 0,
+        "contacts": []
+    },
+    {
+        "campaign_id": "20260725_164704",
+        "started_at": "2026-07-25T16:47:04.504006",
+        "finished_at": "2026-07-25T16:47:06.232808",
+        "status": "completed",
+        "daily_limit": 8,
+        "batch_size": 2,
+        "delay_between_messages": 30,
+        "delay_between_batches": 300,
+        "total_contacts": 20,
+        "pending_contacts": 13,
+        "successful_sends": 1,
+        "failed_sends": 0,
+        "skipped_contacts": 0,
+        "contacts": [
+            {
+                "id": 2017118265,
+                "name": "Bhai Arif T",
+                "username": "obama0513",
+                "status": "success",
+                "processed_at": "2026-07-25T16:47:04.993934",
+                "sent_at": "2026-07-25T16:47:06.231442"
+            }
+        ]
+    },
+    {
+        "campaign_id": "20260725_165154",
+        "started_at": "2026-07-25T16:51:54.997163",
+        "finished_at": null,
+        "status": "running",
+        "daily_send_limit": 20,
+        "monthly_contact_send_limit": 2,
+        "batch_size": 10,
+        "delay_between_messages": 30,
+        "delay_between_batches": 300,
+        "total_contacts": 20,
+        "eligible_contacts": 20,
+        "successful_sends": 6,
+        "failed_sends": 4,
+        "skipped_contacts": 0,
+        "contacts": [
+            {
+                "id": 250406097,
+                "name": "Tahir Sial",
+                "username": "TahirXial",
+                "status": "success",
+                "monthly_send_count_before": 1,
+                "processed_at": "2026-07-25T16:51:55.571535",
+                "sent_at": "2026-07-25T16:51:57.557638",
+                "monthly_send_count_after": 2,
+                "monthly_remaining": 0
+            },
+            {
+                "id": 1557314066,
+                "name": "Aamir Log Msr",
+                "username": "Aamirrasheed6781",
+                "status": "success",
+                "monthly_send_count_before": 1,
+                "processed_at": "2026-07-25T16:52:27.565270",
+                "sent_at": "2026-07-25T16:52:28.868209",
+                "monthly_send_count_after": 2,
+                "monthly_remaining": 0
+            },
+            {
+                "id": 1576829345,
+                "name": "Waqas PP",
+                "username": "Meetwaqas",
+                "status": "success",
+                "monthly_send_count_before": 1,
+                "processed_at": "2026-07-25T16:52:58.884638",
+                "sent_at": "2026-07-25T16:53:01.181315",
+                "monthly_send_count_after": 2,
+                "monthly_remaining": 0
+            },
+            {
+                "id": 1768031815,
+                "name": "Sudip Paytm",
+                "username": "sudip762",
+                "status": "success",
+                "monthly_send_count_before": 1,
+                "processed_at": "2026-07-25T16:53:31.196463",
+                "sent_at": "2026-07-25T16:53:32.608796",
+                "monthly_send_count_after": 2,
+                "monthly_remaining": 0
+            },
+            {
+                "id": 1829697801,
+                "name": "Shehryar WP",
+                "username": "sherry_191",
+                "status": "success",
+                "monthly_send_count_before": 1,
+                "processed_at": "2026-07-25T16:54:02.619580",
+                "sent_at": "2026-07-25T16:54:04.932385",
+                "monthly_send_count_after": 2,
+                "monthly_remaining": 0
+            },
+            {
+                "id": 1871000484,
+                "name": "Zeeshan Adaense Arbitrage",
+                "username": "sheikhzaheerabbas",
+                "status": "success",
+                "monthly_send_count_before": 1,
+                "processed_at": "2026-07-25T16:54:34.942310",
+                "sent_at": "2026-07-25T16:54:37.246681",
+                "monthly_send_count_after": 2,
+                "monthly_remaining": 0
+            },
+            {
+                "id": 2006187222,
+                "name": "Azeem Insurance Website",
+                "username": "AzeemSafi",
+                "status": "failed",
+                "monthly_send_count_before": 1,
+                "processed_at": "2026-07-25T16:55:07.254069",
+                "error": "Connection to Telegram failed 5 time(s)"
+            },
+            {
+                "id": 2017118265,
+                "name": "Bhai Arif T",
+                "username": "obama0513",
+                "status": "failed",
+                "monthly_send_count_before": 1,
+                "processed_at": "2026-07-25T17:01:40.803513",
+                "error": "Cannot send requests while disconnected"
+            },
+            {
+                "id": 5004845470,
+                "name": "Sumit FB",
+                "username": "Web1expert",
+                "status": "failed",
+                "monthly_send_count_before": 0,
+                "processed_at": "2026-07-25T17:02:10.819362",
+                "error": "Cannot send requests while disconnected"
+            },
+            {
+                "id": 5315709821,
+                "name": "Faz indrive",
+                "username": "Muhammadfaz",
+                "status": "failed",
+                "monthly_send_count_before": 0,
+                "processed_at": "2026-07-25T17:02:40.834670",
+                "error": "Cannot send requests while disconnected"
+            }
+        ]
+    },
+    {
+        "campaign_id": "20260725_170906",
+        "started_at": "2026-07-25T17:09:06.753274",
+        "finished_at": "2026-07-25T17:09:06.756736",
+        "status": "daily_limit_reached",
+        "daily_send_limit": 10,
+        "rolling_30_day_send_limit": 2,
+        "minimum_days_between_messages": 15,
+        "batch_size": 2,
+        "delay_between_messages": 30,
+        "delay_between_batches": 300,
+        "total_contacts": 46,
+        "opted_in_contacts": 0,
+        "eligible_contacts": 0,
+        "successful_sends": 0,
+        "failed_sends": 0,
+        "skipped_contacts": 0,
+        "contacts": []
+    }
+]

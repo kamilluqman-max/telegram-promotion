@@ -1,0 +1,201 @@
+[
+    {
+        "sync_id": "20260725_170823",
+        "started_at": "2026-07-25T17:08:23.709466",
+        "finished_at": "2026-07-25T17:08:24.826857",
+        "status": "completed",
+        "telegram_contacts_found": 134,
+        "existing_contacts_before_sync": 20,
+        "new_contacts_found": 26,
+        "new_contacts_added": 26,
+        "duplicates_ignored": 20,
+        "excluded_bots": 0,
+        "excluded_deleted": 0,
+        "excluded_no_username": 88,
+        "total_contacts_after_sync": 46,
+        "new_contacts": [
+            {
+                "id": 6313488518,
+                "name": "Reri Munir",
+                "username": "faisal80348",
+                "opted_in": true,
+                "status": "added"
+            },
+            {
+                "id": 6387094610,
+                "name": "Zubair Chinoti",
+                "username": "sherghanioficial",
+                "opted_in": true,
+                "status": "added"
+            },
+            {
+                "id": 6395366701,
+                "name": "Pk24 Jobs Adsense",
+                "username": "it4all_pk",
+                "opted_in": true,
+                "status": "added"
+            },
+            {
+                "id": 6397102294,
+                "name": "Qamar Backlink",
+                "username": "rajputbhatti",
+                "opted_in": true,
+                "status": "added"
+            },
+            {
+                "id": 6414439003,
+                "name": "Bisp Update",
+                "username": "bispupdates",
+                "opted_in": true,
+                "status": "added"
+            },
+            {
+                "id": 6504554081,
+                "name": "Luqman",
+                "username": "kamilluqman7440",
+                "opted_in": true,
+                "status": "added"
+            },
+            {
+                "id": 6534025383,
+                "name": "Azhar 0601",
+                "username": "azhariqbal614",
+                "opted_in": true,
+                "status": "added"
+            },
+            {
+                "id": 6551454464,
+                "name": "3310",
+                "username": "syed512729",
+                "opted_in": true,
+                "status": "added"
+            },
+            {
+                "id": 6581920130,
+                "name": "Azeem MES",
+                "username": "azeembadshah",
+                "opted_in": true,
+                "status": "added"
+            },
+            {
+                "id": 6638860300,
+                "name": "Qamar 608",
+                "username": "qam786i",
+                "opted_in": true,
+                "status": "added"
+            },
+            {
+                "id": 6756530643,
+                "name": "HP STREAM BOOK",
+                "username": "gulfam1996",
+                "opted_in": true,
+                "status": "added"
+            },
+            {
+                "id": 6765549226,
+                "name": "Pco M3 Pro",
+                "username": "bloookie",
+                "opted_in": true,
+                "status": "added"
+            },
+            {
+                "id": 6766989937,
+                "name": "Trade",
+                "username": "hstraderx",
+                "opted_in": true,
+                "status": "added"
+            },
+            {
+                "id": 6874861261,
+                "name": "Waqas 92",
+                "username": "vicky3690",
+                "opted_in": true,
+                "status": "added"
+            },
+            {
+                "id": 7079811630,
+                "name": "Waqas 92",
+                "username": "fahad4564",
+                "opted_in": true,
+                "status": "added"
+            },
+            {
+                "id": 7174502350,
+                "name": "CT Waseem",
+                "username": "waseemakram943",
+                "opted_in": true,
+                "status": "added"
+            },
+            {
+                "id": 7191083908,
+                "name": "AC Shahid",
+                "username": "shahid4031",
+                "opted_in": true,
+                "status": "added"
+            },
+            {
+                "id": 7248856344,
+                "name": "Ramzan IT",
+                "username": "mikikhan1922",
+                "opted_in": true,
+                "status": "added"
+            },
+            {
+                "id": 7256180985,
+                "name": "Reri Qaiser",
+                "username": "ghulam353",
+                "opted_in": true,
+                "status": "added"
+            },
+            {
+                "id": 7383458127,
+                "name": "Tayyab 92",
+                "username": "saadi_530",
+                "opted_in": true,
+                "status": "added"
+            },
+            {
+                "id": 7398536218,
+                "name": "Ansar 608",
+                "username": "aqnasn",
+                "opted_in": true,
+                "status": "added"
+            },
+            {
+                "id": 7405380043,
+                "name": "Semrush",
+                "username": "arslan00035",
+                "opted_in": true,
+                "status": "added"
+            },
+            {
+                "id": 7527068394,
+                "name": "Reri Munir",
+                "username": "qaisarfaisal",
+                "opted_in": true,
+                "status": "added"
+            },
+            {
+                "id": 8111663222,
+                "name": "Naveed Masoom 85",
+                "username": "naveed0221",
+                "opted_in": true,
+                "status": "added"
+            },
+            {
+                "id": 8342550025,
+                "name": "Faizan Adsense",
+                "username": "calls_not_allowed",
+                "opted_in": true,
+                "status": "added"
+            },
+            {
+                "id": 8408427703,
+                "name": "Trade",
+                "username": "digitaleducationalzone",
+                "opted_in": true,
+                "status": "added"
+            }
+        ]
+    }
+]
