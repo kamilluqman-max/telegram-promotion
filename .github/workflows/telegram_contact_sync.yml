@@ -39,7 +39,8 @@ jobs:
         env:
           TELEGRAM_SESSION: ${{ secrets.TELEGRAM_SESSION }}
         run: |
-          echo "$TELEGRAM_SESSION" | base64 --decode > telegram_invite_session.session
+          echo "$TELEGRAM_SESSION" | base64 --decode > telegram_session.zip
+          unzip -o telegram_session.zip
 
       - name: Create environment file
         run: |
