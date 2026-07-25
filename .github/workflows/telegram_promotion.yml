@@ -1,263 +1,66 @@
-```yaml
-name: Telegram Promotion Automation
+name: Telegram Promotion Campaign
 
 on:
-  # Run promotion campaign every day at 12:00 UTC
-  # = 5:00 PM Pakistan Standard Time
   schedule:
+    # Daily at 12:00 UTC = 5:00 PM Pakistan time
     - cron: "0 12 * * *"
 
-  # Run weekly contact synchronization every Monday
-  # at 11:00 UTC = 4:00 PM Pakistan Standard Time
-    - cron: "0 11 * * 1"
-
-  # Allow manual testing from GitHub Actions
   workflow_dispatch:
 
 permissions:
   contents: write
 
-
 jobs:
-
-  # ==========================================================
-  # DAILY PROMOTION CAMPAIGN
-  # ==========================================================
 
   telegram-promotion:
 
-    name: Run Telegram Promotion Campaign
+    name: Run Telegram Promotion
 
     runs-on: ubuntu-latest
 
     steps:
 
-      # --------------------------------------------------------
-      # Checkout repository
-      # --------------------------------------------------------
-
       - name: Checkout repository
-
         uses: actions/checkout@v4
-
         with:
           fetch-depth: 0
 
-
-      # --------------------------------------------------------
-      # Setup Python
-      # --------------------------------------------------------
-
       - name: Setup Python
-
         uses: actions/setup-python@v5
-
         with:
           python-version: "3.12"
 
-
-      # --------------------------------------------------------
-      # Install dependencies
-      # --------------------------------------------------------
-
       - name: Install dependencies
-
         run: |
-
           python -m pip install --upgrade pip
-
           pip install telethon python-dotenv
 
-
-      # --------------------------------------------------------
-      # Restore Telegram session
-      # --------------------------------------------------------
-
       - name: Restore Telegram session
-
         env:
-
           TELEGRAM_SESSION: ${{ secrets.TELEGRAM_SESSION }}
-
         run: |
-
           echo "$TELEGRAM_SESSION" | base64 --decode > telegram_invite_session.session
 
-
-      # --------------------------------------------------------
-      # Create .env file
-      # --------------------------------------------------------
-
       - name: Create environment file
-
         run: |
-
           echo "TELEGRAM_API_ID=${{ secrets.TELEGRAM_API_ID }}" >> .env
-
           echo "TELEGRAM_API_HASH=${{ secrets.TELEGRAM_API_HASH }}" >> .env
 
-
-      # --------------------------------------------------------
-      # Run Telegram promotion campaign
-      # --------------------------------------------------------
-
       - name: Run Telegram promotion
-
         run: |
-
           python telegram_invite.py
 
-
-      # --------------------------------------------------------
-      # Save updated campaign history
-      # --------------------------------------------------------
-
       - name: Commit campaign history
-
         run: |
-
           git config user.name "github-actions[bot]"
-
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add sent_contacts.json
-
           git add campaign_log.json
 
           if git diff --cached --quiet; then
-
             echo "No campaign history changes to commit."
-
           else
-
             git commit -m "Update Telegram campaign history"
-
             git push
-
           fi
-
-
-  # ==========================================================
-  # WEEKLY CONTACT SYNCHRONIZATION
-  # ==========================================================
-
-  telegram-contact-sync:
-
-    name: Weekly Telegram Contact Sync
-
-    runs-on: ubuntu-latest
-
-    # Only run this job when the workflow was triggered
-    # by the weekly Monday schedule or manually.
-    #
-    # NOTE:
-    # The current workflow has two cron schedules.
-    # This condition ensures the sync job only runs for
-    # the weekly schedule or manual workflow execution.
-
-    steps:
-
-      # --------------------------------------------------------
-      # Checkout repository
-      # --------------------------------------------------------
-
-      - name: Checkout repository
-
-        uses: actions/checkout@v4
-
-        with:
-          fetch-depth: 0
-
-
-      # --------------------------------------------------------
-      # Setup Python
-      # --------------------------------------------------------
-
-      - name: Setup Python
-
-        uses: actions/setup-python@v5
-
-        with:
-          python-version: "3.12"
-
-
-      # --------------------------------------------------------
-      # Install dependencies
-      # --------------------------------------------------------
-
-      - name: Install dependencies
-
-        run: |
-
-          python -m pip install --upgrade pip
-
-          pip install telethon python-dotenv
-
-
-      # --------------------------------------------------------
-      # Restore Telegram session
-      # --------------------------------------------------------
-
-      - name: Restore Telegram session
-
-        env:
-
-          TELEGRAM_SESSION: ${{ secrets.TELEGRAM_SESSION }}
-
-        run: |
-
-          echo "$TELEGRAM_SESSION" | base64 --decode > telegram_invite_session.session
-
-
-      # --------------------------------------------------------
-      # Create .env file
-      # --------------------------------------------------------
-
-      - name: Create environment file
-
-        run: |
-
-          echo "TELEGRAM_API_ID=${{ secrets.TELEGRAM_API_ID }}" >> .env
-
-          echo "TELEGRAM_API_HASH=${{ secrets.TELEGRAM_API_HASH }}" >> .env
-
-
-      # --------------------------------------------------------
-      # Run contact synchronization
-      # --------------------------------------------------------
-
-      - name: Sync Telegram contacts
-
-        run: |
-
-          python sync_telegram_contacts.py
-
-
-      # --------------------------------------------------------
-      # Save updated contacts and sync history
-      # --------------------------------------------------------
-
-      - name: Commit contact sync results
-
-        run: |
-
-          git config user.name "github-actions[bot]"
-
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          git add selected_contacts.json
-
-          git add contact_sync_log.json
-
-          if git diff --cached --quiet; then
-
-            echo "No contact sync changes to commit."
-
-          else
-
-            git commit -m "Update Telegram contacts"
-
-            git push
-
-          fi
-```
