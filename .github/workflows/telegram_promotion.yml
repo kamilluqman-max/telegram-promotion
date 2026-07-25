@@ -20,48 +20,111 @@ jobs:
 
     steps:
 
+      # ========================================================
+      # CHECKOUT REPOSITORY
+      # ========================================================
+
       - name: Checkout repository
+
         uses: actions/checkout@v4
+
         with:
           fetch-depth: 0
 
+
+      # ========================================================
+      # SETUP PYTHON
+      # ========================================================
+
       - name: Setup Python
+
         uses: actions/setup-python@v5
+
         with:
           python-version: "3.12"
 
+
+      # ========================================================
+      # INSTALL DEPENDENCIES
+      # ========================================================
+
       - name: Install dependencies
+
         run: |
+
           python -m pip install --upgrade pip
+
           pip install telethon python-dotenv
 
+
+      # ========================================================
+      # RESTORE TELEGRAM SESSION
+      # ========================================================
+
       - name: Restore Telegram session
+
         env:
+
           TELEGRAM_SESSION: ${{ secrets.TELEGRAM_SESSION }}
+
         run: |
+
           echo "$TELEGRAM_SESSION" | base64 --decode > telegram_session.zip
+
           unzip -o telegram_session.zip
-          
+
+
+      # ========================================================
+      # CREATE ENVIRONMENT FILE
+      # ========================================================
+
       - name: Create environment file
+
         run: |
+
           echo "TELEGRAM_API_ID=${{ secrets.TELEGRAM_API_ID }}" >> .env
+
           echo "TELEGRAM_API_HASH=${{ secrets.TELEGRAM_API_HASH }}" >> .env
 
+
+      # ========================================================
+      # RUN TELEGRAM PROMOTION
+      # ========================================================
+
       - name: Run Telegram promotion
+
         run: |
+
           python telegram_invite.py
 
+
+      # ========================================================
+      # COMMIT CAMPAIGN HISTORY
+      # ========================================================
+
       - name: Commit campaign history
+
         run: |
+
           git config user.name "github-actions[bot]"
+
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add sent_contacts.json
+
           git add campaign_log.json
 
+
           if git diff --cached --quiet; then
+
             echo "No campaign history changes to commit."
+
           else
+
             git commit -m "Update Telegram campaign history"
-            git push
+
+            git pull --rebase origin main
+
+            git push origin HEAD:main
+
           fi
