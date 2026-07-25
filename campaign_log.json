@@ -178,5 +178,24 @@
         "failed_sends": 0,
         "skipped_contacts": 0,
         "contacts": []
+    },
+    {
+        "campaign_id": "20260725_124542",
+        "started_at": "2026-07-25T12:45:42.295202",
+        "finished_at": "2026-07-25T12:45:42.296189",
+        "status": "daily_limit_reached",
+        "daily_send_limit": 10,
+        "rolling_30_day_send_limit": 2,
+        "minimum_days_between_messages": 15,
+        "batch_size": 2,
+        "delay_between_messages": 30,
+        "delay_between_batches": 300,
+        "total_contacts": 46,
+        "opted_in_contacts": 0,
+        "eligible_contacts": 0,
+        "successful_sends": 0,
+        "failed_sends": 0,
+        "skipped_contacts": 0,
+        "contacts": []
     }
 ]
