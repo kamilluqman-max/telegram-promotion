@@ -345,5 +345,153 @@
                 "rolling_30_day_remaining": 1
             }
         ]
+    },
+    {
+        "campaign_id": "20260727_143040",
+        "started_at": "2026-07-27T14:30:40.700147",
+        "finished_at": "2026-07-27T14:53:14.921424",
+        "status": "completed_with_errors",
+        "daily_send_limit": 10,
+        "rolling_30_day_send_limit": 2,
+        "minimum_days_between_messages": 15,
+        "batch_size": 2,
+        "delay_between_messages": 30,
+        "delay_between_batches": 300,
+        "total_contacts": 46,
+        "opted_in_contacts": 26,
+        "eligible_contacts": 17,
+        "successful_sends": 9,
+        "failed_sends": 1,
+        "skipped_contacts": 0,
+        "contacts": [
+            {
+                "id": 6414439003,
+                "name": "Bisp Update",
+                "username": "bispupdates",
+                "status": "failed",
+                "rolling_30_day_count_before": 0,
+                "last_sent_at_before": null,
+                "days_since_last_message": null,
+                "processed_at": "2026-07-27T14:30:40.804401",
+                "error": "No user has \"bispupdates\" as username"
+            },
+            {
+                "id": 6756530643,
+                "name": "HP STREAM BOOK",
+                "username": "gulfam1996",
+                "status": "success",
+                "rolling_30_day_count_before": 0,
+                "last_sent_at_before": null,
+                "days_since_last_message": null,
+                "processed_at": "2026-07-27T14:31:10.963128",
+                "sent_at": "2026-07-27T14:31:11.512535",
+                "rolling_30_day_count_after": 1,
+                "rolling_30_day_remaining": 1
+            },
+            {
+                "id": 6765549226,
+                "name": "Pco M3 Pro",
+                "username": "bloookie",
+                "status": "success",
+                "rolling_30_day_count_before": 0,
+                "last_sent_at_before": null,
+                "days_since_last_message": null,
+                "processed_at": "2026-07-27T14:36:11.523294",
+                "sent_at": "2026-07-27T14:36:11.952400",
+                "rolling_30_day_count_after": 1,
+                "rolling_30_day_remaining": 1
+            },
+            {
+                "id": 6766989937,
+                "name": "Trade",
+                "username": "hstraderx",
+                "status": "success",
+                "rolling_30_day_count_before": 0,
+                "last_sent_at_before": null,
+                "days_since_last_message": null,
+                "processed_at": "2026-07-27T14:36:41.955382",
+                "sent_at": "2026-07-27T14:36:42.483743",
+                "rolling_30_day_count_after": 1,
+                "rolling_30_day_remaining": 1
+            },
+            {
+                "id": 6874861261,
+                "name": "Waqas 92",
+                "username": "vicky3690",
+                "status": "success",
+                "rolling_30_day_count_before": 0,
+                "last_sent_at_before": null,
+                "days_since_last_message": null,
+                "processed_at": "2026-07-27T14:41:42.487275",
+                "sent_at": "2026-07-27T14:41:42.924187",
+                "rolling_30_day_count_after": 1,
+                "rolling_30_day_remaining": 1
+            },
+            {
+                "id": 7079811630,
+                "name": "Waqas 92",
+                "username": "fahad4564",
+                "status": "success",
+                "rolling_30_day_count_before": 0,
+                "last_sent_at_before": null,
+                "days_since_last_message": null,
+                "processed_at": "2026-07-27T14:42:12.953965",
+                "sent_at": "2026-07-27T14:42:13.482216",
+                "rolling_30_day_count_after": 1,
+                "rolling_30_day_remaining": 1
+            },
+            {
+                "id": 7174502350,
+                "name": "CT Waseem",
+                "username": "waseemakram943",
+                "status": "success",
+                "rolling_30_day_count_before": 0,
+                "last_sent_at_before": null,
+                "days_since_last_message": null,
+                "processed_at": "2026-07-27T14:47:13.491276",
+                "sent_at": "2026-07-27T14:47:13.852154",
+                "rolling_30_day_count_after": 1,
+                "rolling_30_day_remaining": 1
+            },
+            {
+                "id": 7191083908,
+                "name": "AC Shahid",
+                "username": "shahid4031",
+                "status": "success",
+                "rolling_30_day_count_before": 0,
+                "last_sent_at_before": null,
+                "days_since_last_message": null,
+                "processed_at": "2026-07-27T14:47:43.856984",
+                "sent_at": "2026-07-27T14:47:44.213120",
+                "rolling_30_day_count_after": 1,
+                "rolling_30_day_remaining": 1
+            },
+            {
+                "id": 7248856344,
+                "name": "Ramzan IT",
+                "username": "mikikhan1922",
+                "status": "success",
+                "rolling_30_day_count_before": 0,
+                "last_sent_at_before": null,
+                "days_since_last_message": null,
+                "processed_at": "2026-07-27T14:52:44.217218",
+                "sent_at": "2026-07-27T14:52:44.555239",
+                "rolling_30_day_count_after": 1,
+                "rolling_30_day_remaining": 1
+            },
+            {
+                "id": 7256180985,
+                "name": "Reri Qaiser",
+                "username": "ghulam353",
+                "status": "success",
+                "rolling_30_day_count_before": 0,
+                "last_sent_at_before": null,
+                "days_since_last_message": null,
+                "processed_at": "2026-07-27T14:53:14.579294",
+                "sent_at": "2026-07-27T14:53:14.920226",
+                "rolling_30_day_count_after": 1,
+                "rolling_30_day_remaining": 1
+            }
+        ]
     }
 ]
