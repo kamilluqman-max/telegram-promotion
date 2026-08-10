@@ -245,5 +245,21 @@
         "excluded_no_username": 86,
         "total_contacts_after_sync": 46,
         "new_contacts": []
+    },
+    {
+        "sync_id": "20260810_113951",
+        "started_at": "2026-08-10T11:39:51.493744",
+        "finished_at": "2026-08-10T11:39:51.891897",
+        "status": "completed",
+        "telegram_contacts_found": 132,
+        "existing_contacts_before_sync": 46,
+        "new_contacts_found": 0,
+        "new_contacts_added": 0,
+        "duplicates_ignored": 45,
+        "excluded_bots": 0,
+        "excluded_deleted": 0,
+        "excluded_no_username": 87,
+        "total_contacts_after_sync": 46,
+        "new_contacts": []
     }
 ]
