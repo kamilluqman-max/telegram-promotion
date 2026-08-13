@@ -1314,5 +1314,127 @@
                 "rolling_30_day_remaining": 0
             }
         ]
+    },
+    {
+        "campaign_id": "20260813_130639",
+        "started_at": "2026-08-13T13:06:39.071029",
+        "finished_at": "2026-08-13T13:23:41.798528",
+        "status": "completed_with_errors",
+        "daily_send_limit": 10,
+        "rolling_30_day_send_limit": 2,
+        "minimum_days_between_messages": 15,
+        "batch_size": 2,
+        "delay_between_messages": 30,
+        "delay_between_batches": 300,
+        "total_contacts": 46,
+        "opted_in_contacts": 26,
+        "eligible_contacts": 8,
+        "successful_sends": 7,
+        "failed_sends": 1,
+        "skipped_contacts": 0,
+        "contacts": [
+            {
+                "id": 6414439003,
+                "name": "Bisp Update",
+                "username": "bispupdates",
+                "status": "failed",
+                "rolling_30_day_count_before": 0,
+                "last_sent_at_before": null,
+                "days_since_last_message": null,
+                "processed_at": "2026-08-13T13:06:39.225376",
+                "error": "No user has \"bispupdates\" as username"
+            },
+            {
+                "id": 7383458127,
+                "name": "Tayyab 92",
+                "username": "saadi_530",
+                "status": "success",
+                "rolling_30_day_count_before": 1,
+                "last_sent_at_before": "2026-07-28T14:04:28.470368",
+                "days_since_last_message": 15.96,
+                "processed_at": "2026-08-13T13:07:09.419353",
+                "sent_at": "2026-08-13T13:07:09.745938",
+                "rolling_30_day_count_after": 2,
+                "rolling_30_day_remaining": 0
+            },
+            {
+                "id": 7398536218,
+                "name": "Ansar 608",
+                "username": "aqnasn",
+                "status": "success",
+                "rolling_30_day_count_before": 1,
+                "last_sent_at_before": "2026-07-28T14:09:28.880833",
+                "days_since_last_message": 15.96,
+                "processed_at": "2026-08-13T13:12:09.779633",
+                "sent_at": "2026-08-13T13:12:10.130857",
+                "rolling_30_day_count_after": 2,
+                "rolling_30_day_remaining": 0
+            },
+            {
+                "id": 7405380043,
+                "name": "Semrush",
+                "username": "arslan00035",
+                "status": "success",
+                "rolling_30_day_count_before": 1,
+                "last_sent_at_before": "2026-07-28T14:09:59.249071",
+                "days_since_last_message": 15.96,
+                "processed_at": "2026-08-13T13:12:40.135158",
+                "sent_at": "2026-08-13T13:12:40.450758",
+                "rolling_30_day_count_after": 2,
+                "rolling_30_day_remaining": 0
+            },
+            {
+                "id": 7527068394,
+                "name": "Reri Munir",
+                "username": "qaisarfaisal",
+                "status": "success",
+                "rolling_30_day_count_before": 1,
+                "last_sent_at_before": "2026-07-28T14:14:59.713073",
+                "days_since_last_message": 15.96,
+                "processed_at": "2026-08-13T13:17:40.455594",
+                "sent_at": "2026-08-13T13:17:40.870076",
+                "rolling_30_day_count_after": 2,
+                "rolling_30_day_remaining": 0
+            },
+            {
+                "id": 8111663222,
+                "name": "Naveed Masoom 85",
+                "username": "naveed0221",
+                "status": "success",
+                "rolling_30_day_count_before": 1,
+                "last_sent_at_before": "2026-07-28T14:15:30.152825",
+                "days_since_last_message": 15.96,
+                "processed_at": "2026-08-13T13:18:10.896098",
+                "sent_at": "2026-08-13T13:18:11.179277",
+                "rolling_30_day_count_after": 2,
+                "rolling_30_day_remaining": 0
+            },
+            {
+                "id": 8342550025,
+                "name": "Faizan Adsense",
+                "username": "calls_not_allowed",
+                "status": "success",
+                "rolling_30_day_count_before": 1,
+                "last_sent_at_before": "2026-07-28T14:20:30.541933",
+                "days_since_last_message": 15.96,
+                "processed_at": "2026-08-13T13:23:11.214168",
+                "sent_at": "2026-08-13T13:23:11.504895",
+                "rolling_30_day_count_after": 2,
+                "rolling_30_day_remaining": 0
+            },
+            {
+                "id": 8408427703,
+                "name": "Trade",
+                "username": "digitaleducationalzone",
+                "status": "success",
+                "rolling_30_day_count_before": 1,
+                "last_sent_at_before": "2026-07-28T14:21:00.861912",
+                "days_since_last_message": 15.96,
+                "processed_at": "2026-08-13T13:23:41.508214",
+                "sent_at": "2026-08-13T13:23:41.796195",
+                "rolling_30_day_count_after": 2,
+                "rolling_30_day_remaining": 0
+            }
+        ]
     }
 ]
