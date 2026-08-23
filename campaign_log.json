@@ -1715,5 +1715,36 @@
                 "error": "No user has \"bispupdates\" as username"
             }
         ]
+    },
+    {
+        "campaign_id": "20260823_123623",
+        "started_at": "2026-08-23T12:36:23.297825",
+        "finished_at": "2026-08-23T12:36:23.649057",
+        "status": "completed_with_errors",
+        "daily_send_limit": 10,
+        "rolling_30_day_send_limit": 2,
+        "minimum_days_between_messages": 15,
+        "batch_size": 2,
+        "delay_between_messages": 30,
+        "delay_between_batches": 300,
+        "total_contacts": 46,
+        "opted_in_contacts": 26,
+        "eligible_contacts": 1,
+        "successful_sends": 0,
+        "failed_sends": 1,
+        "skipped_contacts": 0,
+        "contacts": [
+            {
+                "id": 6414439003,
+                "name": "Bisp Update",
+                "username": "bispupdates",
+                "status": "failed",
+                "rolling_30_day_count_before": 0,
+                "last_sent_at_before": null,
+                "days_since_last_message": null,
+                "processed_at": "2026-08-23T12:36:23.465829",
+                "error": "No user has \"bispupdates\" as username"
+            }
+        ]
     }
 ]
