@@ -1987,5 +1987,153 @@
                 "rolling_30_day_remaining": 0
             }
         ]
+    },
+    {
+        "campaign_id": "20260828_214350",
+        "started_at": "2026-08-28T21:43:50.636396",
+        "finished_at": "2026-08-28T22:06:23.965234",
+        "status": "completed_with_errors",
+        "daily_send_limit": 10,
+        "rolling_30_day_send_limit": 2,
+        "minimum_days_between_messages": 15,
+        "batch_size": 2,
+        "delay_between_messages": 30,
+        "delay_between_batches": 300,
+        "total_contacts": 46,
+        "opted_in_contacts": 26,
+        "eligible_contacts": 17,
+        "successful_sends": 9,
+        "failed_sends": 1,
+        "skipped_contacts": 0,
+        "contacts": [
+            {
+                "id": 6414439003,
+                "name": "Bisp Update",
+                "username": "bispupdates",
+                "status": "failed",
+                "rolling_30_day_count_before": 0,
+                "last_sent_at_before": null,
+                "days_since_last_message": null,
+                "processed_at": "2026-08-28T21:43:50.750640",
+                "error": "No user has \"bispupdates\" as username"
+            },
+            {
+                "id": 6756530643,
+                "name": "HP STREAM BOOK",
+                "username": "gulfam1996",
+                "status": "success",
+                "rolling_30_day_count_before": 1,
+                "last_sent_at_before": "2026-08-12T13:05:54.310431",
+                "days_since_last_message": 16.36,
+                "processed_at": "2026-08-28T21:44:20.890219",
+                "sent_at": "2026-08-28T21:44:21.222645",
+                "rolling_30_day_count_after": 2,
+                "rolling_30_day_remaining": 0
+            },
+            {
+                "id": 6765549226,
+                "name": "Pco M3 Pro",
+                "username": "bloookie",
+                "status": "success",
+                "rolling_30_day_count_before": 1,
+                "last_sent_at_before": "2026-08-12T13:10:54.703561",
+                "days_since_last_message": 16.36,
+                "processed_at": "2026-08-28T21:49:21.247670",
+                "sent_at": "2026-08-28T21:49:21.680491",
+                "rolling_30_day_count_after": 2,
+                "rolling_30_day_remaining": 0
+            },
+            {
+                "id": 6766989937,
+                "name": "Trade",
+                "username": "hstraderx",
+                "status": "success",
+                "rolling_30_day_count_before": 1,
+                "last_sent_at_before": "2026-08-12T13:11:25.045698",
+                "days_since_last_message": 16.36,
+                "processed_at": "2026-08-28T21:49:51.684567",
+                "sent_at": "2026-08-28T21:49:51.997757",
+                "rolling_30_day_count_after": 2,
+                "rolling_30_day_remaining": 0
+            },
+            {
+                "id": 6874861261,
+                "name": "Waqas 92",
+                "username": "vicky3690",
+                "status": "success",
+                "rolling_30_day_count_before": 1,
+                "last_sent_at_before": "2026-08-12T13:16:25.368231",
+                "days_since_last_message": 16.36,
+                "processed_at": "2026-08-28T21:54:52.002243",
+                "sent_at": "2026-08-28T21:54:52.274409",
+                "rolling_30_day_count_after": 2,
+                "rolling_30_day_remaining": 0
+            },
+            {
+                "id": 7079811630,
+                "name": "Waqas 92",
+                "username": "fahad4564",
+                "status": "success",
+                "rolling_30_day_count_before": 1,
+                "last_sent_at_before": "2026-08-12T13:16:55.716189",
+                "days_since_last_message": 16.36,
+                "processed_at": "2026-08-28T21:55:22.283593",
+                "sent_at": "2026-08-28T21:55:22.592812",
+                "rolling_30_day_count_after": 2,
+                "rolling_30_day_remaining": 0
+            },
+            {
+                "id": 7174502350,
+                "name": "CT Waseem",
+                "username": "waseemakram943",
+                "status": "success",
+                "rolling_30_day_count_before": 1,
+                "last_sent_at_before": "2026-08-12T13:21:56.074220",
+                "days_since_last_message": 16.36,
+                "processed_at": "2026-08-28T22:00:22.627481",
+                "sent_at": "2026-08-28T22:00:22.944211",
+                "rolling_30_day_count_after": 2,
+                "rolling_30_day_remaining": 0
+            },
+            {
+                "id": 7191083908,
+                "name": "AC Shahid",
+                "username": "shahid4031",
+                "status": "success",
+                "rolling_30_day_count_before": 1,
+                "last_sent_at_before": "2026-08-12T13:22:26.346664",
+                "days_since_last_message": 16.36,
+                "processed_at": "2026-08-28T22:00:52.949143",
+                "sent_at": "2026-08-28T22:00:53.234792",
+                "rolling_30_day_count_after": 2,
+                "rolling_30_day_remaining": 0
+            },
+            {
+                "id": 7248856344,
+                "name": "Ramzan IT",
+                "username": "mikikhan1922",
+                "status": "success",
+                "rolling_30_day_count_before": 1,
+                "last_sent_at_before": "2026-08-12T13:27:26.657395",
+                "days_since_last_message": 16.36,
+                "processed_at": "2026-08-28T22:05:53.239840",
+                "sent_at": "2026-08-28T22:05:53.520776",
+                "rolling_30_day_count_after": 2,
+                "rolling_30_day_remaining": 0
+            },
+            {
+                "id": 7256180985,
+                "name": "Reri Qaiser",
+                "username": "ghulam353",
+                "status": "success",
+                "rolling_30_day_count_before": 1,
+                "last_sent_at_before": "2026-08-12T13:27:57.088978",
+                "days_since_last_message": 16.36,
+                "processed_at": "2026-08-28T22:06:23.553781",
+                "sent_at": "2026-08-28T22:06:23.962656",
+                "rolling_30_day_count_after": 2,
+                "rolling_30_day_remaining": 0
+            }
+        ]
     }
 ]
