@@ -326,5 +326,13 @@
         "opted_in": true,
         "added_at": "2026-07-25T17:08:24.825817",
         "source": "telegram_contact_sync"
+    },
+    {
+        "id": 8658385379,
+        "name": "Raza Internet",
+        "username": "basmolaali",
+        "opted_in": true,
+        "added_at": "2026-09-07T16:09:14.307210",
+        "source": "telegram_contact_sync"
     }
 ]
