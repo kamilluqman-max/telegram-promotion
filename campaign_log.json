@@ -2673,5 +2673,153 @@
                 "error": "No user has \"bispupdates\" as username"
             }
         ]
+    },
+    {
+        "campaign_id": "20260912_150052",
+        "started_at": "2026-09-12T15:00:52.097237",
+        "finished_at": "2026-09-12T15:23:25.388798",
+        "status": "completed_with_errors",
+        "daily_send_limit": 10,
+        "rolling_30_day_send_limit": 2,
+        "minimum_days_between_messages": 15,
+        "batch_size": 2,
+        "delay_between_messages": 30,
+        "delay_between_batches": 300,
+        "total_contacts": 47,
+        "opted_in_contacts": 27,
+        "eligible_contacts": 10,
+        "successful_sends": 9,
+        "failed_sends": 1,
+        "skipped_contacts": 0,
+        "contacts": [
+            {
+                "id": 6313488518,
+                "name": "Reri Munir",
+                "username": "faisal80348",
+                "status": "success",
+                "rolling_30_day_count_before": 1,
+                "last_sent_at_before": "2026-08-27T21:47:45.566495",
+                "days_since_last_message": 15.72,
+                "processed_at": "2026-09-12T15:00:52.199895",
+                "sent_at": "2026-09-12T15:00:52.493427",
+                "rolling_30_day_count_after": 2,
+                "rolling_30_day_remaining": 0
+            },
+            {
+                "id": 6387094610,
+                "name": "Zubair Chinoti",
+                "username": "sherghanioficial",
+                "status": "success",
+                "rolling_30_day_count_before": 1,
+                "last_sent_at_before": "2026-08-27T21:48:15.907180",
+                "days_since_last_message": 15.72,
+                "processed_at": "2026-09-12T15:01:22.514679",
+                "sent_at": "2026-09-12T15:01:22.896295",
+                "rolling_30_day_count_after": 2,
+                "rolling_30_day_remaining": 0
+            },
+            {
+                "id": 6395366701,
+                "name": "Pk24 Jobs Adsense",
+                "username": "it4all_pk",
+                "status": "success",
+                "rolling_30_day_count_before": 1,
+                "last_sent_at_before": "2026-08-27T21:53:16.177264",
+                "days_since_last_message": 15.72,
+                "processed_at": "2026-09-12T15:06:22.931155",
+                "sent_at": "2026-09-12T15:06:23.331814",
+                "rolling_30_day_count_after": 2,
+                "rolling_30_day_remaining": 0
+            },
+            {
+                "id": 6397102294,
+                "name": "Qamar Backlink",
+                "username": "rajputbhatti",
+                "status": "success",
+                "rolling_30_day_count_before": 1,
+                "last_sent_at_before": "2026-08-27T21:53:46.450092",
+                "days_since_last_message": 15.72,
+                "processed_at": "2026-09-12T15:06:53.336523",
+                "sent_at": "2026-09-12T15:06:53.601176",
+                "rolling_30_day_count_after": 2,
+                "rolling_30_day_remaining": 0
+            },
+            {
+                "id": 6414439003,
+                "name": "Bisp Update",
+                "username": "bispupdates",
+                "status": "failed",
+                "rolling_30_day_count_before": 0,
+                "last_sent_at_before": null,
+                "days_since_last_message": null,
+                "processed_at": "2026-09-12T15:11:53.606371",
+                "error": "No user has \"bispupdates\" as username"
+            },
+            {
+                "id": 6504554081,
+                "name": "Luqman",
+                "username": "kamilluqman7440",
+                "status": "success",
+                "rolling_30_day_count_before": 1,
+                "last_sent_at_before": "2026-08-27T21:59:16.818186",
+                "days_since_last_message": 15.72,
+                "processed_at": "2026-09-12T15:12:23.715886",
+                "sent_at": "2026-09-12T15:12:23.958610",
+                "rolling_30_day_count_after": 2,
+                "rolling_30_day_remaining": 0
+            },
+            {
+                "id": 6534025383,
+                "name": "Azhar 0601",
+                "username": "azhariqbal614",
+                "status": "success",
+                "rolling_30_day_count_before": 1,
+                "last_sent_at_before": "2026-08-27T22:04:17.118629",
+                "days_since_last_message": 15.72,
+                "processed_at": "2026-09-12T15:17:23.994185",
+                "sent_at": "2026-09-12T15:17:24.273542",
+                "rolling_30_day_count_after": 2,
+                "rolling_30_day_remaining": 0
+            },
+            {
+                "id": 6551454464,
+                "name": "3310",
+                "username": "syed512729",
+                "status": "success",
+                "rolling_30_day_count_before": 1,
+                "last_sent_at_before": "2026-08-27T22:04:47.441992",
+                "days_since_last_message": 15.72,
+                "processed_at": "2026-09-12T15:17:54.279838",
+                "sent_at": "2026-09-12T15:17:54.732119",
+                "rolling_30_day_count_after": 2,
+                "rolling_30_day_remaining": 0
+            },
+            {
+                "id": 6581920130,
+                "name": "Azeem MES",
+                "username": "azeembadshah",
+                "status": "success",
+                "rolling_30_day_count_before": 1,
+                "last_sent_at_before": "2026-08-27T22:09:47.705846",
+                "days_since_last_message": 15.72,
+                "processed_at": "2026-09-12T15:22:54.738632",
+                "sent_at": "2026-09-12T15:22:55.027173",
+                "rolling_30_day_count_after": 2,
+                "rolling_30_day_remaining": 0
+            },
+            {
+                "id": 6638860300,
+                "name": "Qamar 608",
+                "username": "qam786i",
+                "status": "success",
+                "rolling_30_day_count_before": 1,
+                "last_sent_at_before": "2026-08-27T22:10:18.075212",
+                "days_since_last_message": 15.72,
+                "processed_at": "2026-09-12T15:23:25.061476",
+                "sent_at": "2026-09-12T15:23:25.384795",
+                "rolling_30_day_count_after": 2,
+                "rolling_30_day_remaining": 0
+            }
+        ]
     }
 ]
