@@ -3768,5 +3768,60 @@
                 "rolling_30_day_remaining": 0
             }
         ]
+    },
+    {
+        "campaign_id": "20260929_174033",
+        "started_at": "2026-09-29T17:40:33.810828",
+        "finished_at": "2026-09-29T17:46:04.872171",
+        "status": "completed_with_errors",
+        "daily_send_limit": 10,
+        "rolling_30_day_send_limit": 2,
+        "minimum_days_between_messages": 15,
+        "batch_size": 2,
+        "delay_between_messages": 30,
+        "delay_between_batches": 300,
+        "total_contacts": 47,
+        "opted_in_contacts": 27,
+        "eligible_contacts": 3,
+        "successful_sends": 1,
+        "failed_sends": 2,
+        "skipped_contacts": 0,
+        "contacts": [
+            {
+                "id": 6395366701,
+                "name": "Pk24 Jobs Adsense",
+                "username": "it4all_pk",
+                "status": "failed",
+                "rolling_30_day_count_before": 1,
+                "last_sent_at_before": "2026-09-12T15:06:23.331814",
+                "days_since_last_message": 17.11,
+                "processed_at": "2026-09-29T17:40:33.971760",
+                "error": "No user has \"it4all_pk\" as username"
+            },
+            {
+                "id": 6414439003,
+                "name": "Bisp Update",
+                "username": "bispupdates",
+                "status": "failed",
+                "rolling_30_day_count_before": 0,
+                "last_sent_at_before": null,
+                "days_since_last_message": null,
+                "processed_at": "2026-09-29T17:41:04.167481",
+                "error": "No user has \"bispupdates\" as username"
+            },
+            {
+                "id": 7256180985,
+                "name": "Reri Qaiser",
+                "username": "ghulam353",
+                "status": "success",
+                "rolling_30_day_count_before": 1,
+                "last_sent_at_before": "2026-09-13T16:01:26.470432",
+                "days_since_last_message": 16.07,
+                "processed_at": "2026-09-29T17:46:04.395299",
+                "sent_at": "2026-09-29T17:46:04.867668",
+                "rolling_30_day_count_after": 2,
+                "rolling_30_day_remaining": 0
+            }
+        ]
     }
 ]
