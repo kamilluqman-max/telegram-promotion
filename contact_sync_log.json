@@ -381,5 +381,29 @@
         "excluded_no_username": 80,
         "total_contacts_after_sync": 47,
         "new_contacts": []
+    },
+    {
+        "sync_id": "20261005_192504",
+        "started_at": "2026-10-05T19:25:04.303079",
+        "finished_at": "2026-10-05T19:25:04.646707",
+        "status": "completed",
+        "telegram_contacts_found": 124,
+        "existing_contacts_before_sync": 47,
+        "new_contacts_found": 1,
+        "new_contacts_added": 1,
+        "duplicates_ignored": 43,
+        "excluded_bots": 0,
+        "excluded_deleted": 0,
+        "excluded_no_username": 80,
+        "total_contacts_after_sync": 48,
+        "new_contacts": [
+            {
+                "id": 7096544282,
+                "name": "Qaiser Active Official",
+                "username": "mrfreelancerofficialai",
+                "opted_in": true,
+                "status": "added"
+            }
+        ]
     }
 ]
