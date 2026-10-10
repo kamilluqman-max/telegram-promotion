@@ -4360,5 +4360,47 @@
                 "error": "No user has \"bispupdates\" as username"
             }
         ]
+    },
+    {
+        "campaign_id": "20261010_165922",
+        "started_at": "2026-10-10T16:59:22.761625",
+        "finished_at": "2026-10-10T16:59:53.269657",
+        "status": "completed_with_errors",
+        "daily_send_limit": 10,
+        "rolling_30_day_send_limit": 2,
+        "minimum_days_between_messages": 15,
+        "batch_size": 2,
+        "delay_between_messages": 30,
+        "delay_between_batches": 300,
+        "total_contacts": 48,
+        "opted_in_contacts": 28,
+        "eligible_contacts": 2,
+        "successful_sends": 0,
+        "failed_sends": 2,
+        "skipped_contacts": 0,
+        "contacts": [
+            {
+                "id": 6395366701,
+                "name": "Pk24 Jobs Adsense",
+                "username": "it4all_pk",
+                "status": "failed",
+                "rolling_30_day_count_before": 1,
+                "last_sent_at_before": "2026-09-12T15:06:23.331814",
+                "days_since_last_message": 28.08,
+                "processed_at": "2026-10-10T16:59:22.922436",
+                "error": "No user has \"it4all_pk\" as username"
+            },
+            {
+                "id": 6414439003,
+                "name": "Bisp Update",
+                "username": "bispupdates",
+                "status": "failed",
+                "rolling_30_day_count_before": 0,
+                "last_sent_at_before": null,
+                "days_since_last_message": null,
+                "processed_at": "2026-10-10T16:59:53.106310",
+                "error": "No user has \"bispupdates\" as username"
+            }
+        ]
     }
 ]
