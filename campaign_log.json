@@ -5744,5 +5744,71 @@
                 "rolling_30_day_remaining": 0
             }
         ]
+    },
+    {
+        "campaign_id": "20261030_174335",
+        "started_at": "2026-10-30T17:43:35.991806",
+        "finished_at": "2026-10-30T17:49:37.162212",
+        "status": "completed_with_errors",
+        "daily_send_limit": 10,
+        "rolling_30_day_send_limit": 2,
+        "minimum_days_between_messages": 15,
+        "batch_size": 2,
+        "delay_between_messages": 30,
+        "delay_between_batches": 300,
+        "total_contacts": 48,
+        "opted_in_contacts": 28,
+        "eligible_contacts": 4,
+        "successful_sends": 1,
+        "failed_sends": 3,
+        "skipped_contacts": 0,
+        "contacts": [
+            {
+                "id": 6395366701,
+                "name": "Pk24 Jobs Adsense",
+                "username": "it4all_pk",
+                "status": "failed",
+                "rolling_30_day_count_before": 0,
+                "last_sent_at_before": "2026-09-12T15:06:23.331814",
+                "days_since_last_message": 48.11,
+                "processed_at": "2026-10-30T17:43:36.106029",
+                "error": "No user has \"it4all_pk\" as username"
+            },
+            {
+                "id": 6414439003,
+                "name": "Bisp Update",
+                "username": "bispupdates",
+                "status": "failed",
+                "rolling_30_day_count_before": 0,
+                "last_sent_at_before": null,
+                "days_since_last_message": null,
+                "processed_at": "2026-10-30T17:44:06.232725",
+                "error": "No user has \"bispupdates\" as username"
+            },
+            {
+                "id": 7191083908,
+                "name": "AC Shahid",
+                "username": "shahid4031",
+                "status": "failed",
+                "rolling_30_day_count_before": 1,
+                "last_sent_at_before": "2026-10-14T16:56:59.629879",
+                "days_since_last_message": 16.04,
+                "processed_at": "2026-10-30T17:49:06.542834",
+                "error": "No user has \"shahid4031\" as username"
+            },
+            {
+                "id": 7256180985,
+                "name": "Reri Qaiser",
+                "username": "ghulam353",
+                "status": "success",
+                "rolling_30_day_count_before": 1,
+                "last_sent_at_before": "2026-10-15T16:26:29.548744",
+                "days_since_last_message": 15.06,
+                "processed_at": "2026-10-30T17:49:36.690955",
+                "sent_at": "2026-10-30T17:49:37.153371",
+                "rolling_30_day_count_after": 2,
+                "rolling_30_day_remaining": 0
+            }
+        ]
     }
 ]
