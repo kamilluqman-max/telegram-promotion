@@ -5810,5 +5810,149 @@
                 "rolling_30_day_remaining": 0
             }
         ]
+    },
+    {
+        "campaign_id": "20261031_165102",
+        "started_at": "2026-10-31T16:51:02.396061",
+        "finished_at": "2026-10-31T17:13:35.395552",
+        "status": "completed_with_errors",
+        "daily_send_limit": 10,
+        "rolling_30_day_send_limit": 2,
+        "minimum_days_between_messages": 15,
+        "batch_size": 2,
+        "delay_between_messages": 30,
+        "delay_between_batches": 300,
+        "total_contacts": 48,
+        "opted_in_contacts": 28,
+        "eligible_contacts": 10,
+        "successful_sends": 7,
+        "failed_sends": 3,
+        "skipped_contacts": 0,
+        "contacts": [
+            {
+                "id": 6395366701,
+                "name": "Pk24 Jobs Adsense",
+                "username": "it4all_pk",
+                "status": "failed",
+                "rolling_30_day_count_before": 0,
+                "last_sent_at_before": "2026-09-12T15:06:23.331814",
+                "days_since_last_message": 49.07,
+                "processed_at": "2026-10-31T16:51:02.564967",
+                "error": "No user has \"it4all_pk\" as username"
+            },
+            {
+                "id": 6414439003,
+                "name": "Bisp Update",
+                "username": "bispupdates",
+                "status": "failed",
+                "rolling_30_day_count_before": 0,
+                "last_sent_at_before": null,
+                "days_since_last_message": null,
+                "processed_at": "2026-10-31T16:51:32.801698",
+                "error": "No user has \"bispupdates\" as username"
+            },
+            {
+                "id": 7191083908,
+                "name": "AC Shahid",
+                "username": "shahid4031",
+                "status": "failed",
+                "rolling_30_day_count_before": 1,
+                "last_sent_at_before": "2026-10-14T16:56:59.629879",
+                "days_since_last_message": 17.0,
+                "processed_at": "2026-10-31T16:56:32.937694",
+                "error": "No user has \"shahid4031\" as username"
+            },
+            {
+                "id": 7383458127,
+                "name": "Tayyab 92",
+                "username": "saadi_530",
+                "status": "success",
+                "rolling_30_day_count_before": 1,
+                "last_sent_at_before": "2026-10-16T16:13:03.371750",
+                "days_since_last_message": 15.03,
+                "processed_at": "2026-10-31T16:57:03.061919",
+                "sent_at": "2026-10-31T16:57:03.459194",
+                "rolling_30_day_count_after": 2,
+                "rolling_30_day_remaining": 0
+            },
+            {
+                "id": 7398536218,
+                "name": "Ansar 608",
+                "username": "aqnasn",
+                "status": "success",
+                "rolling_30_day_count_before": 1,
+                "last_sent_at_before": "2026-10-16T16:13:33.763583",
+                "days_since_last_message": 15.03,
+                "processed_at": "2026-10-31T17:02:03.465717",
+                "sent_at": "2026-10-31T17:02:03.765171",
+                "rolling_30_day_count_after": 2,
+                "rolling_30_day_remaining": 0
+            },
+            {
+                "id": 7405380043,
+                "name": "Semrush",
+                "username": "arslan00035",
+                "status": "success",
+                "rolling_30_day_count_before": 1,
+                "last_sent_at_before": "2026-10-16T16:18:34.158166",
+                "days_since_last_message": 15.03,
+                "processed_at": "2026-10-31T17:02:33.800172",
+                "sent_at": "2026-10-31T17:02:34.114895",
+                "rolling_30_day_count_after": 2,
+                "rolling_30_day_remaining": 0
+            },
+            {
+                "id": 7527068394,
+                "name": "Reri Munir",
+                "username": "qaisarfaisal",
+                "status": "success",
+                "rolling_30_day_count_before": 1,
+                "last_sent_at_before": "2026-10-16T16:19:04.562174",
+                "days_since_last_message": 15.03,
+                "processed_at": "2026-10-31T17:07:34.137774",
+                "sent_at": "2026-10-31T17:07:34.457061",
+                "rolling_30_day_count_after": 2,
+                "rolling_30_day_remaining": 0
+            },
+            {
+                "id": 8111663222,
+                "name": "Naveed Masoom 85",
+                "username": "naveed0221",
+                "status": "success",
+                "rolling_30_day_count_before": 1,
+                "last_sent_at_before": "2026-10-16T16:24:05.038498",
+                "days_since_last_message": 15.03,
+                "processed_at": "2026-10-31T17:08:04.464148",
+                "sent_at": "2026-10-31T17:08:04.765565",
+                "rolling_30_day_count_after": 2,
+                "rolling_30_day_remaining": 0
+            },
+            {
+                "id": 8342550025,
+                "name": "Faizan Adsense",
+                "username": "calls_not_allowed",
+                "status": "success",
+                "rolling_30_day_count_before": 1,
+                "last_sent_at_before": "2026-10-16T16:24:35.470856",
+                "days_since_last_message": 15.03,
+                "processed_at": "2026-10-31T17:13:04.773310",
+                "sent_at": "2026-10-31T17:13:05.072483",
+                "rolling_30_day_count_after": 2,
+                "rolling_30_day_remaining": 0
+            },
+            {
+                "id": 8408427703,
+                "name": "Trade",
+                "username": "digitaleducationalzone",
+                "status": "success",
+                "rolling_30_day_count_before": 1,
+                "last_sent_at_before": "2026-10-16T16:29:35.849623",
+                "days_since_last_message": 15.03,
+                "processed_at": "2026-10-31T17:13:35.097964",
+                "sent_at": "2026-10-31T17:13:35.390823",
+                "rolling_30_day_count_after": 2,
+                "rolling_30_day_remaining": 0
+            }
+        ]
     }
 ]
