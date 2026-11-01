@@ -5954,5 +5954,58 @@
                 "rolling_30_day_remaining": 0
             }
         ]
+    },
+    {
+        "campaign_id": "20261101_173926",
+        "started_at": "2026-11-01T17:39:26.704328",
+        "finished_at": "2026-11-01T17:44:57.353338",
+        "status": "completed_with_errors",
+        "daily_send_limit": 10,
+        "rolling_30_day_send_limit": 2,
+        "minimum_days_between_messages": 15,
+        "batch_size": 2,
+        "delay_between_messages": 30,
+        "delay_between_batches": 300,
+        "total_contacts": 48,
+        "opted_in_contacts": 28,
+        "eligible_contacts": 3,
+        "successful_sends": 0,
+        "failed_sends": 3,
+        "skipped_contacts": 0,
+        "contacts": [
+            {
+                "id": 6395366701,
+                "name": "Pk24 Jobs Adsense",
+                "username": "it4all_pk",
+                "status": "failed",
+                "rolling_30_day_count_before": 0,
+                "last_sent_at_before": "2026-09-12T15:06:23.331814",
+                "days_since_last_message": 50.11,
+                "processed_at": "2026-11-01T17:39:26.872923",
+                "error": "No user has \"it4all_pk\" as username"
+            },
+            {
+                "id": 6414439003,
+                "name": "Bisp Update",
+                "username": "bispupdates",
+                "status": "failed",
+                "rolling_30_day_count_before": 0,
+                "last_sent_at_before": null,
+                "days_since_last_message": null,
+                "processed_at": "2026-11-01T17:39:57.051253",
+                "error": "No user has \"bispupdates\" as username"
+            },
+            {
+                "id": 7191083908,
+                "name": "AC Shahid",
+                "username": "shahid4031",
+                "status": "failed",
+                "rolling_30_day_count_before": 1,
+                "last_sent_at_before": "2026-10-14T16:56:59.629879",
+                "days_since_last_message": 18.03,
+                "processed_at": "2026-11-01T17:44:57.206310",
+                "error": "No user has \"shahid4031\" as username"
+            }
+        ]
     }
 ]
