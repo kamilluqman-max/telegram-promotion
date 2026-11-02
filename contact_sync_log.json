@@ -453,5 +453,29 @@
         "excluded_no_username": 79,
         "total_contacts_after_sync": 48,
         "new_contacts": []
+    },
+    {
+        "sync_id": "20261102_203235",
+        "started_at": "2026-11-02T20:32:35.725092",
+        "finished_at": "2026-11-02T20:32:35.970138",
+        "status": "completed",
+        "telegram_contacts_found": 118,
+        "existing_contacts_before_sync": 48,
+        "new_contacts_found": 1,
+        "new_contacts_added": 1,
+        "duplicates_ignored": 41,
+        "excluded_bots": 0,
+        "excluded_deleted": 0,
+        "excluded_no_username": 76,
+        "total_contacts_after_sync": 49,
+        "new_contacts": [
+            {
+                "id": 9203490758,
+                "name": "Samsung A71",
+                "username": "mobeen_shabir",
+                "opted_in": true,
+                "status": "added"
+            }
+        ]
     }
 ]

@@ -342,5 +342,13 @@
         "opted_in": true,
         "added_at": "2026-10-05T19:25:04.646398",
         "source": "telegram_contact_sync"
+    },
+    {
+        "id": 9203490758,
+        "name": "Samsung A71",
+        "username": "mobeen_shabir",
+        "opted_in": true,
+        "added_at": "2026-11-02T20:32:35.969637",
+        "source": "telegram_contact_sync"
     }
 ]
