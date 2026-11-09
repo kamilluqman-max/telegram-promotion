@@ -477,5 +477,21 @@
                 "status": "added"
             }
         ]
+    },
+    {
+        "sync_id": "20261109_210916",
+        "started_at": "2026-11-09T21:09:16.650222",
+        "finished_at": "2026-11-09T21:09:16.918939",
+        "status": "completed",
+        "telegram_contacts_found": 116,
+        "existing_contacts_before_sync": 49,
+        "new_contacts_found": 0,
+        "new_contacts_added": 0,
+        "duplicates_ignored": 42,
+        "excluded_bots": 0,
+        "excluded_deleted": 0,
+        "excluded_no_username": 74,
+        "total_contacts_after_sync": 49,
+        "new_contacts": []
     }
 ]
