@@ -6862,5 +6862,82 @@
                 "error": "No user has \"shahid4031\" as username"
             }
         ]
+    },
+    {
+        "campaign_id": "20261114_174050",
+        "started_at": "2026-11-14T17:40:50.034848",
+        "finished_at": "2026-11-14T17:51:51.165944",
+        "status": "completed_with_errors",
+        "daily_send_limit": 10,
+        "rolling_30_day_send_limit": 2,
+        "minimum_days_between_messages": 15,
+        "batch_size": 2,
+        "delay_between_messages": 30,
+        "delay_between_batches": 300,
+        "total_contacts": 49,
+        "opted_in_contacts": 29,
+        "eligible_contacts": 5,
+        "successful_sends": 1,
+        "failed_sends": 4,
+        "skipped_contacts": 0,
+        "contacts": [
+            {
+                "id": 6395366701,
+                "name": "Pk24 Jobs Adsense",
+                "username": "it4all_pk",
+                "status": "failed",
+                "rolling_30_day_count_before": 0,
+                "last_sent_at_before": "2026-09-12T15:06:23.331814",
+                "days_since_last_message": 63.11,
+                "processed_at": "2026-11-14T17:40:50.144574",
+                "error": "No user has \"it4all_pk\" as username"
+            },
+            {
+                "id": 6414439003,
+                "name": "Bisp Update",
+                "username": "bispupdates",
+                "status": "failed",
+                "rolling_30_day_count_before": 0,
+                "last_sent_at_before": null,
+                "days_since_last_message": null,
+                "processed_at": "2026-11-14T17:41:20.284420",
+                "error": "No user has \"bispupdates\" as username"
+            },
+            {
+                "id": 6638860300,
+                "name": "Qamar 608",
+                "username": "qam786i",
+                "status": "failed",
+                "rolling_30_day_count_before": 1,
+                "last_sent_at_before": "2026-10-28T18:17:30.369530",
+                "days_since_last_message": 16.98,
+                "processed_at": "2026-11-14T17:46:20.419537",
+                "error": "No user has \"qam786i\" as username"
+            },
+            {
+                "id": 7191083908,
+                "name": "AC Shahid",
+                "username": "shahid4031",
+                "status": "failed",
+                "rolling_30_day_count_before": 0,
+                "last_sent_at_before": "2026-10-14T16:56:59.629879",
+                "days_since_last_message": 31.03,
+                "processed_at": "2026-11-14T17:46:50.528220",
+                "error": "No user has \"shahid4031\" as username"
+            },
+            {
+                "id": 7248856344,
+                "name": "Ramzan IT",
+                "username": "mikikhan1922",
+                "status": "success",
+                "rolling_30_day_count_before": 1,
+                "last_sent_at_before": "2026-10-29T18:25:26.386828",
+                "days_since_last_message": 15.98,
+                "processed_at": "2026-11-14T17:51:50.637211",
+                "sent_at": "2026-11-14T17:51:51.158912",
+                "rolling_30_day_count_after": 2,
+                "rolling_30_day_remaining": 0
+            }
+        ]
     }
 ]
