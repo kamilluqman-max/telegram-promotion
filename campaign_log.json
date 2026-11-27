@@ -7969,5 +7969,149 @@
                 "error": "No user has \"ghulam353\" as username"
             }
         ]
+    },
+    {
+        "campaign_id": "20261127_204205",
+        "started_at": "2026-11-27T20:42:05.640704",
+        "finished_at": "2026-11-27T21:04:38.797067",
+        "status": "completed_with_errors",
+        "daily_send_limit": 10,
+        "rolling_30_day_send_limit": 2,
+        "minimum_days_between_messages": 15,
+        "batch_size": 2,
+        "delay_between_messages": 30,
+        "delay_between_batches": 300,
+        "total_contacts": 49,
+        "opted_in_contacts": 29,
+        "eligible_contacts": 12,
+        "successful_sends": 7,
+        "failed_sends": 3,
+        "skipped_contacts": 0,
+        "contacts": [
+            {
+                "id": 6313488518,
+                "name": "Reri Munir",
+                "username": "faisal80348",
+                "status": "success",
+                "rolling_30_day_count_before": 1,
+                "last_sent_at_before": "2026-11-12T19:33:15.886749",
+                "days_since_last_message": 15.05,
+                "processed_at": "2026-11-27T20:42:05.822004",
+                "sent_at": "2026-11-27T20:42:06.197204",
+                "rolling_30_day_count_after": 2,
+                "rolling_30_day_remaining": 0
+            },
+            {
+                "id": 6387094610,
+                "name": "Zubair Chinoti",
+                "username": "sherghanioficial",
+                "status": "success",
+                "rolling_30_day_count_before": 1,
+                "last_sent_at_before": "2026-11-12T19:33:46.189110",
+                "days_since_last_message": 15.05,
+                "processed_at": "2026-11-27T20:42:36.235777",
+                "sent_at": "2026-11-27T20:42:36.568022",
+                "rolling_30_day_count_after": 2,
+                "rolling_30_day_remaining": 0
+            },
+            {
+                "id": 6395366701,
+                "name": "Pk24 Jobs Adsense",
+                "username": "it4all_pk",
+                "status": "failed",
+                "rolling_30_day_count_before": 0,
+                "last_sent_at_before": "2026-09-12T15:06:23.331814",
+                "days_since_last_message": 76.24,
+                "processed_at": "2026-11-27T20:47:36.608873",
+                "error": "No user has \"it4all_pk\" as username"
+            },
+            {
+                "id": 6397102294,
+                "name": "Qamar Backlink",
+                "username": "rajputbhatti",
+                "status": "success",
+                "rolling_30_day_count_before": 1,
+                "last_sent_at_before": "2026-11-12T19:39:16.610530",
+                "days_since_last_message": 15.05,
+                "processed_at": "2026-11-27T20:48:06.739956",
+                "sent_at": "2026-11-27T20:48:07.137590",
+                "rolling_30_day_count_after": 2,
+                "rolling_30_day_remaining": 0
+            },
+            {
+                "id": 6414439003,
+                "name": "Bisp Update",
+                "username": "bispupdates",
+                "status": "failed",
+                "rolling_30_day_count_before": 0,
+                "last_sent_at_before": null,
+                "days_since_last_message": null,
+                "processed_at": "2026-11-27T20:53:07.148885",
+                "error": "No user has \"bispupdates\" as username"
+            },
+            {
+                "id": 6504554081,
+                "name": "Luqman",
+                "username": "kamilluqman7440",
+                "status": "success",
+                "rolling_30_day_count_before": 1,
+                "last_sent_at_before": "2026-11-12T19:44:47.091189",
+                "days_since_last_message": 15.05,
+                "processed_at": "2026-11-27T20:53:37.319177",
+                "sent_at": "2026-11-27T20:53:37.602976",
+                "rolling_30_day_count_after": 2,
+                "rolling_30_day_remaining": 0
+            },
+            {
+                "id": 6534025383,
+                "name": "Azhar 0601",
+                "username": "azhariqbal614",
+                "status": "success",
+                "rolling_30_day_count_before": 1,
+                "last_sent_at_before": "2026-11-12T19:49:47.418624",
+                "days_since_last_message": 15.05,
+                "processed_at": "2026-11-27T20:58:37.630186",
+                "sent_at": "2026-11-27T20:58:37.927197",
+                "rolling_30_day_count_after": 2,
+                "rolling_30_day_remaining": 0
+            },
+            {
+                "id": 6551454464,
+                "name": "3310",
+                "username": "syed512729",
+                "status": "success",
+                "rolling_30_day_count_before": 1,
+                "last_sent_at_before": "2026-11-12T19:50:17.694754",
+                "days_since_last_message": 15.05,
+                "processed_at": "2026-11-27T20:59:07.940071",
+                "sent_at": "2026-11-27T20:59:08.295713",
+                "rolling_30_day_count_after": 2,
+                "rolling_30_day_remaining": 0
+            },
+            {
+                "id": 6581920130,
+                "name": "Azeem MES",
+                "username": "azeembadshah",
+                "status": "success",
+                "rolling_30_day_count_before": 1,
+                "last_sent_at_before": "2026-11-12T19:55:17.984226",
+                "days_since_last_message": 15.05,
+                "processed_at": "2026-11-27T21:04:08.307303",
+                "sent_at": "2026-11-27T21:04:08.631349",
+                "rolling_30_day_count_after": 2,
+                "rolling_30_day_remaining": 0
+            },
+            {
+                "id": 6638860300,
+                "name": "Qamar 608",
+                "username": "qam786i",
+                "status": "failed",
+                "rolling_30_day_count_before": 0,
+                "last_sent_at_before": "2026-10-28T18:17:30.369530",
+                "days_since_last_message": 30.12,
+                "processed_at": "2026-11-27T21:04:38.671527",
+                "error": "No user has \"qam786i\" as username"
+            }
+        ]
     }
 ]
